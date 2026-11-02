@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gangrix-compilerfuse_jd361"
+name = "gangrix-long_toolchain_context_reclaim_consistency_check"
 version = "0.1.0"
 description = "在同一个输入里两两比对，检测编译器与算子融合专家·长工具链的上下文回收相关的矛盾表述，把冲突双方原样并排呈现"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://gangrix.github.io"
-Repository = "https://github.com/gangrix/compilerfuse_jd361"
-Issues = "https://github.com/gangrix/compilerfuse_jd361/issues"
+Repository = "https://github.com/gangrix/long_toolchain_context_reclaim_consistency_check"
+Issues = "https://github.com/gangrix/long_toolchain_context_reclaim_consistency_check/issues"
 
 [project.scripts]
-compilerfuse_jd361 = "compilerfuse_jd361:main"
+long_toolchain_context_reclaim_consistency_check = "long_toolchain_context_reclaim_consistency_check:main"
 
 [tool.setuptools]
-py-modules = ["compilerfuse_jd361"]
+py-modules = ["long_toolchain_context_reclaim_consistency_check"]

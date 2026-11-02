@@ -1,11 +1,11 @@
-# compilerfuse_jd361
+# long_toolchain_context_reclaim_consistency_check
 
 **找出编译器与算子融合专家·长工具链的上下文回收里互相矛盾的两处并排列出。**
 
-`compilerfuse_jd361` —— 在同一个输入里两两比对，检测编译器与算子融合专家·长工具链的上下文回收相关的矛盾表述，把冲突双方原样并排呈现
+`long_toolchain_context_reclaim_consistency_check` —— 在同一个输入里两两比对，检测编译器与算子融合专家·长工具链的上下文回收相关的矛盾表述，把冲突双方原样并排呈现
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`compilerfuse_jd361.py` 拷走就能用
+- 单文件，`long_toolchain_context_reclaim_consistency_check.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install gangrix-compilerfuse_jd361
+pip install gangrix-long_toolchain_context_reclaim_consistency_check
 ```
 
 装完直接用命令名调用：
 
 ```bash
-compilerfuse_jd361 --help
+long_toolchain_context_reclaim_consistency_check --help
 ```
 
-也可以不用安装，直接把 `compilerfuse_jd361.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `long_toolchain_context_reclaim_consistency_check.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ compilerfuse_jd361 --help
 ## 用法
 
 ```bash
-python compilerfuse_jd361.py --file input.txt
-python compilerfuse_jd361.py --text "示例内容"
-python compilerfuse_jd361.py --file input.txt --json
+python long_toolchain_context_reclaim_consistency_check.py --file input.txt
+python long_toolchain_context_reclaim_consistency_check.py --text "示例内容"
+python long_toolchain_context_reclaim_consistency_check.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python compilerfuse_jd361.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_compilerfuse_jd361.py
+python test_long_toolchain_context_reclaim_consistency_check.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_compilerfuse_jd361.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/gangrix/compilerfuse_jd361>
+- GitHub 仓库：<https://github.com/gangrix/long_toolchain_context_reclaim_consistency_check>
 
 ---
 
@@ -79,7 +79,7 @@ python test_compilerfuse_jd361.py
 gangrix 做编译器与算子融合专家·长工具链的上下文回收相关的问题，方向对标蚂蚁集团的负责人编译器与算子融合专家岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://gangrix.github.io>
-- 仓库：<https://github.com/gangrix/compilerfuse_jd361>
+- 仓库：<https://github.com/gangrix/long_toolchain_context_reclaim_consistency_check>
 
 ## 许可
 
